@@ -15,11 +15,8 @@ def prime?(number)
       if number % i == 0 || number % ( i + 2 ) == 0
         return false
       end
-    i += 6
-    #binding.pry
-    #return true
+    i += 6  
     end
-   #binding.pry
    return true
   end
 end
