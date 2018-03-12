@@ -6,7 +6,7 @@ def prime?(number)
     return true
   elsif number % 2 == 0 || number % 3 == 0
     return false
-  else 
+  else
     i = 5
     #w = 2
     while i * i <= number
@@ -16,6 +16,6 @@ def prime?(number)
       i += 6
     return true
     end
-    #return true
+    return true
   end
 end
