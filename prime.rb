@@ -12,11 +12,11 @@ def prime?(number)
     #w = 2
 
     while i * i <= number
-      binding.pry
       if number % i == 0 || number % ( i + 2 ) == 0
         return false
       end
     i += 6
+    binding.pry
     return true
     end
    #binding.pry
