@@ -19,7 +19,7 @@ def prime?(number)
     i += 6
     return true
     end
-   binding.pry
+   #binding.pry
    return true
   end
 end
