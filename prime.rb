@@ -8,13 +8,12 @@ def prime?(number)
     return false
   else
     i = 5
-    w = 2
+    #w = 2
     while i * i <= number
-      if number % i == 0
+      if number % i == 0 || number % (i + 2 ) == 0 
         return false
       end
-      i += w
-      w = 6 - w
+      i += 6
       return true
     end
     return true
