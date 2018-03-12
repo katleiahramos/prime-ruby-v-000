@@ -1,7 +1,7 @@
 require_relative './spec_helper'
 require_relative '../prime.rb'
 
-# = begin describe "prime?" do
+ describe "prime?" do
 #  it 'returns true for prime numbers' do
 #    expect(prime?(3)).to be(true)
 #    expect(prime?(11)).to be(true)
@@ -15,5 +15,5 @@ require_relative '../prime.rb'
   #  expect(prime?(40)).to be(false)
     expect(prime?(1763)).to be(false)
   #  expect(prime?(101013)).to be(false)
-  #end
+  end
 end
