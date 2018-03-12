@@ -8,14 +8,14 @@ def prime?(number)
     return false
   else
     i = 5
-    w = 2 
+    w = 2
     while i * i <= number
-      if number % i == 0 
+      if number % i == 0
         return false
       end
-      i += w 
+      i += w
       w = 6 - w
+      return true
     end
-    return true
   end
 end
