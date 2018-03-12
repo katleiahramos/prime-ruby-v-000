@@ -10,8 +10,9 @@ def prime?(number)
   else
     i = 5
     #w = 2
-    binding.pry
+
     while i * i <= number
+      binding.pry
       if number % i == 0 || number % ( i + 2 ) == 0
         return false
       end
