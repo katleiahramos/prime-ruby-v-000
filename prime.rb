@@ -10,11 +10,11 @@ def prime?(number)
     i = 5
     #w = 2
     while i * i <= number
-      if number % i == 0 || number % (i + 2 ) == 0 
+      if number % i == 0 || number % (i + 2 ) == 0
         return false
       end
       i += 6
-      return true
+    return true
     end
     return true
   end
